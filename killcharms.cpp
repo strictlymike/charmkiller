@@ -294,12 +294,11 @@ FindMod(HANDLE hProc, char *ModNameSought)
 				continue;
 			}
 
-			if (!FinalComponentIs(szModName, ModNameSought))
+			if (FinalComponentIs(szModName, ModNameSought))
 			{
-				continue;
+				Ret = Mods[i];
+				break;
 			}
-
-			Ret = Mods[i];
 		}
 	}
 
