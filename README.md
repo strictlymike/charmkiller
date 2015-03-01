@@ -16,7 +16,7 @@ configuration bar, and potentially other controls that are useful within
 Windows 8.  Consequently, the author does not personally find it particularly
 useful, except as a starting point for any future project that might entail
 locating and interacting with threads according to the module whose code they
-are executing.
+are executing (such as a debugger).
 
 Build and Test
 ==============
