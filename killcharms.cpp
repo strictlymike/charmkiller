@@ -382,7 +382,7 @@ FindThread(HANDLE hProc, HMODULE hModImm)
 				continue;
 			}
 
-			if ((ThreadEntryAddr >= Start) && (ThreadEntryAddr <= End))
+			if ((ThreadEntryAddr >= Start) && (ThreadEntryAddr < End))
 			{
 				Ret = hThread;
 				break;
